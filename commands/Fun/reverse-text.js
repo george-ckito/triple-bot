@@ -15,7 +15,7 @@ module.exports = {
         type: 'STRING'
       }],
     cooldown: '5s',
-    callback: ({guild, member, user, interaction, message, channel, args, client, prefix, instance}) => {
+    callback: async ({guild, member, user, interaction, message, channel, args, client, prefix, instance}) => {
        if (message){
          let Text = args.join(' ')
         if (typeof Text != 'string') {
