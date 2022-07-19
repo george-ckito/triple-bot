@@ -14,3 +14,4 @@ After you have this repository on the local machine
 I recommend you watch this 1 hour video on how git works
 and after watching that video you will know how to edit this repository
 Video: https://www.youtube.com/watch?v=8JJ101D3knE
+#### Please note if you get required packages error try running 'npm install' without any addittional arguments
