@@ -3,7 +3,7 @@ const SnakeGame = require('snakecord');
 module.exports = {
     name: 'trivia',
     aliases: ['trivia', 'triv'],
-    description: 'Would you rather?',
+    description: 'Answer some cool questions',
     category: 'Fun',
     guildOnly: true,
     testOnly: true,
