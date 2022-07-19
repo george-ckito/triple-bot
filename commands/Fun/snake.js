@@ -8,7 +8,7 @@ module.exports = {
     testOnly: true,
     slash: 'false',
     cooldown: '5s',
-    callback: ({guild, member, user, interaction, message, channel, args, client, prefix, instance}) => {
+    callback: async ({guild, member, user, interaction, message, channel, args, client, prefix, instance}) => {
         const snakeGame = new SnakeGame({
             title: 'Snake Game',
             color: 'GREEN',
