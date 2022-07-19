@@ -3,6 +3,9 @@ module.exports = {
     name: 'connect4',
     aliases: ['con4', 'conn4', 'connect', 'con'],
     description: 'Connect 4 !!',
+    expectedArgs: '<user>',
+    minArgs: 1,
+    expectedArgsTypes: ['USER'],
     category: 'Fun',
     guildOnly: true,
     testOnly: true,
@@ -11,7 +14,6 @@ module.exports = {
     callback: async ({guild, member, user, interaction, message, channel, args, client, prefix, instance}) => {
         const { Connect4 } = require('discord-gamecord')
     if(message){
-        const { Connect4 } = require('discord-gamecord')
 
 new Connect4({
   message: message,
@@ -36,12 +38,9 @@ new Connect4({
   timeEndMessage: 'Since the opponent didnt answer, i dropped the game!',
 }).startGame()
     } else if(interaction) {
-        const { Connect4 } = require('discord-gamecord')
+
 
 new Connect4({
-  message: message,
-  slash_command: false,
-  opponent: message.mentions.users.first(),
   embed: {
     title: 'Connect 4',
     color: '#5865F2',
