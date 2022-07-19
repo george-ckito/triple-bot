@@ -1,0 +1,7 @@
+{
+    "token": "OTk4MjUyMTczMzQ5NjI1OTI2.Gbtq4c.DfB8EaaO7MxS44RzfDYpE2NfTYVm9uZYMX1lWU",
+    "mongoPath": "mongodb://127.0.0.1:27017/discordbot",
+    "prefix": "t!",
+    "ownerId": "853123789847527454",
+    "redisPath": "redis://redis-14566.c3.eu-west-1-1.ec2.cloud.redislabs.com:14566?password=AnkunE7Is891UVraUpNkoScySTYDIbCw-&username=default"
+}
