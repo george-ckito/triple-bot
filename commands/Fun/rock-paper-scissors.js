@@ -9,6 +9,7 @@ module.exports = {
     description: 'Rock, Paper, or scissors???',
     expectedArgs: '<user>',
     expectedArgsType: ['USER'],
+    minArgs: 1,
     category: 'Fun',
     guildOnly: true,
     testOnly: true,
