@@ -20,6 +20,7 @@
     "module-alias": "^2.2.2",
     "mongoose": "^6.4.4",
     "redis": "^4.2.0",
+    "snakecord": "^1.0.9",
     "wokcommands": "^1.5.3"
   },
   "_moduleAliases": {
