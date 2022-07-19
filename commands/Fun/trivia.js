@@ -1,8 +1,8 @@
 /* */
 const SnakeGame = require('snakecord');
 module.exports = {
-    name: 'wouldyourather',
-    aliases: ['wya', 'rathergame', 'wouldrather', 'wyrather'],
+    name: 'trivia',
+    aliases: ['trivia', 'triv'],
     description: 'Would you rather?',
     category: 'Fun',
     guildOnly: true,
