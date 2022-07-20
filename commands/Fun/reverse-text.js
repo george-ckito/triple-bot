@@ -1,7 +1,7 @@
 
 module.exports = {
     name: 'reverse',
-    description: 'Reverse specified textg',
+    description: 'Reverse specified text',
     expectedArgs: '<text>',
     minArgs: 1,
     category: 'Fun',
@@ -30,7 +30,6 @@ module.exports = {
         if (typeof Text != 'string') {
             Text = +Text
       }
-      const { reverseText } = require('discord-gamecord');
       
       channel.send(await reverseText(Text)); 
     }
