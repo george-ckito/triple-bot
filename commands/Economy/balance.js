@@ -3,7 +3,7 @@ const economy = require('@util/economy')
 
 module.exports = {
   name: 'balance',
-  aliases: ['addbal'],
+  aliases: ['bal'],
   maxArgs: 1,
   category: 'Economy',
   description: 'Sends information about users balance',

@@ -5,7 +5,7 @@ module.exports = {
     name: 'steal',
     aliases: ['rob'],
     cooldown: '7m',
-    expectedArgs: '<@person>',
+    expectedArgs: "person",
     category: 'Economy',
     slash: 'both',
     options: [
