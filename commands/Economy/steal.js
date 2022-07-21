@@ -7,6 +7,7 @@ module.exports = {
     cooldown: '7m',
     expectedArgs: "person",
     category: 'Economy',
+    minArgs: 1,
     slash: 'both',
     options: [
         {
