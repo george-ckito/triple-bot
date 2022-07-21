@@ -7,7 +7,7 @@ module.exports = {
     category: 'Fun',
     guildOnly: true,
     testOnly: true,
-    slash: false,
+    slash: 'both',
     cooldown: '5s',
     callback: async ({guild, member, user, interaction, message, channel, args, client, prefix, instance}) => {
         const { Slots } = require('discord-gamecord')
