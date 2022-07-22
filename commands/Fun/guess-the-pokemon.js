@@ -1,8 +1,7 @@
 
 module.exports = {
     name: 'guessthepokemon',
-    description: 'Reverse specified text',
-    expectedArgs: '<text>',
+    description: 'Guess the pokemon',
     aliases: ['gtp', 'guesspokemon', 'guesspoke', 'gp'],
     category: 'Fun',
     guildOnly: true,
