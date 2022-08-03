@@ -115,8 +115,8 @@ client.once('ready', async () => {
     console.log('Ready To Go!')
 
     //activity
-    client.user.setActivity(`t!help || ${client.guilds.cache.size} Servers `, { type: "WATCHING" })
-    
+   // client.user.setActivity(`t!help || ${client.guilds.cache.size} Servers `, { type: "WATCHING" })
+    client.user.setActivity('GOOGLE 4EVER', { type: "PLAYING"})
     
     //private message (dm)
     privateMessage(client, 'dm me', 'i dmed u')
