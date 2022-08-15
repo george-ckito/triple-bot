@@ -159,7 +159,7 @@ client.once('ready', async () => {
         
         // What server/guild IDs are used for testing only commands & features
         // Can be a single string if there is only 1 ID
-        testServers: ['999729741835796540','991611405147066379', '995362768519708762', '927492677665161266'],
+        testServers: ['999729741835796540','991611405147066379', '995362768519708762', '927492677665161266', '999683856292663446'],
         
         // User your own ID
         // If you only have 1 ID then you can pass in a string instead
